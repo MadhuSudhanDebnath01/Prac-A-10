@@ -1,0 +1,38 @@
+.box{
+    height: 250px;
+    width: 250px;
+    padding: 3rem;
+    border-radius: 50%;
+    background-color: blue;
+    color: white;
+    border: 3px solid rgb(20, 230, 20);
+    box-sizing: border-box;
+    position: absolute;
+    font-size: 40px;
+    /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+    animation:jio 10s 5s linear  infinite  ;
+
+}
+@keyframes jio{
+    0%{
+        background-color:blue;
+        top: 100px;
+      left: 0px;
+    }
+    40%{
+        background-color:yellow;
+        top: 100px;
+      left: 800px;
+    }
+    60%{
+        background-color:green;
+        top: 300px;
+      left: 800px;
+    }
+    100%{
+        background-color: red;
+        top: 300px;
+      left: 0px;
+    }
+    
+}
